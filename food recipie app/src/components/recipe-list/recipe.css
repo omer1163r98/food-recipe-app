@@ -1,0 +1,48 @@
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+.parent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 90px;
+    row-gap: 50px;
+    margin-top: 50px;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    max-height: 300px;
+    opacity: 0; /* Initially hide the dropdown content */
+    animation: fadeIn 0.5s ease forwards;
+    
+}
+
+.img{
+    width: 300px;
+    height: 220px;
+    margin: auto;
+    
+}
+.btn{
+    background-color: rgb(21, 50, 50);
+    width: 130px;
+    padding: 5px;
+    color:aliceblue;
+    text-decoration: none;
+    text-align: center;
+}
+.publisher{
+    font-size: 14px;
+    color: rgb(21, 50, 50);
+
+}
